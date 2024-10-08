@@ -1,0 +1,30 @@
+$margin-top: 20px;
+$column-width: 30%;
+$right-column-width: 35%;
+$padding-right: 20px;
+$margin-left: 0;
+
+.product-details-container {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-top: $margin-top;
+}
+
+.left-column {
+    width: $column-width;
+    float: left;
+    padding-right: $padding-right;
+    margin-left: $margin-left;
+}
+
+.right-column {
+    width: $right-column-width;
+    float: left;
+    padding-right: $padding-right;
+}
+
+.right-column2 {
+    width: $right-column-width;
+    float: left;
+}

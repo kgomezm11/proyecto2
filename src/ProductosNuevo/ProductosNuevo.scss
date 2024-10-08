@@ -1,0 +1,31 @@
+$margin-top: 20px;
+$column-width: 50% !important; // Aquí ajustas el ancho de la columna izquierda
+$right-column-width: 50% !important; // Aquí ajustas el ancho de la columna derecha
+$padding-right: 20px;
+$margin-left: 0;
+
+
+.product-details-container {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-top: $margin-top;
+    width: 110%;
+}
+
+.container {
+    width: 200%;
+}
+
+.left-column {
+    width: $column-width;
+    float: left;
+    padding-right: $padding-right;
+    margin-left: $margin-left;
+}
+
+.right-column {
+    width: $right-column-width;
+    float: left;
+    padding-right: $padding-right;
+}

@@ -1,0 +1,14 @@
+$color_1: white;
+$background-color_1: black;
+
+.btn-custom {
+	background-color: $background-color_1;
+	color: $color_1;
+}
+
+.lista-carrito {
+	width: 400px;
+}
+.button-borrar {
+	float: right;
+}

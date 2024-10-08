@@ -1,0 +1,10 @@
+$spacing: 10px;
+$paddingVertical: 5px;
+$paddingHorizontal: 10px;
+$lineHeight: 1;
+
+.button-spacing {
+    margin-right: $spacing;
+    padding: $paddingVertical $paddingHorizontal;
+    line-height: $lineHeight;
+}

@@ -1,0 +1,15 @@
+$card-img-width: 150px;
+$card-img-height: 150px;
+
+$card-width: 260px;
+$card-height: 250px;
+
+.card-img-top {
+  width: $card-img-width;
+  height: $card-img-height;
+}
+
+.card {
+  width: $card-width;
+  height: $card-height;
+}

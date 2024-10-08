@@ -1,0 +1,65 @@
+$color_1: white;
+$color_2: black;
+$background-color_1: #000000;
+$background-color_2: black;
+$background-color_3: white;
+
+.navbar-light {
+  background-color: $background-color_1 !important;
+
+  .navbar-brand {
+    color: $color_1;
+  }
+
+  .firma {
+    margin-top: 15px;
+  }
+}
+
+.firma,
+.firma2 {
+  color: $color_1;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-custom {
+  background-color: $background-color_2;
+  color: $color_1;
+}
+
+.white-text {
+  color: $color_1;
+}
+
+.nav-link {
+  color: $color_1;
+  background-color: $background-color_2;
+
+  &:hover {
+    background-color: $background-color_3;
+    color: $color_2;
+  }
+
+  &.active {
+    background-color: $background-color_3;
+    color: $color_2;
+  }
+
+  &.rounded-pill {
+    border-radius: 50px;
+    padding: 5px 15px;
+  }
+}
+
+.navbar-nav.ml-auto {
+  margin-left: auto;
+}
+
+.navbar-toggler-icon {
+  background-color: $background-color_3;
+}
