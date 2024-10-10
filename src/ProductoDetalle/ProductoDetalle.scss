@@ -23,3 +23,17 @@ $text-color: white;
     background-color: $background-color;
     color: $text-color;
 }
+
+.comments-section {
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.comment {
+    margin-bottom: 15px;
+}
+
+.comment p {
+    margin: 5px 0;
+}

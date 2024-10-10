@@ -70,6 +70,7 @@ function ProductosNuevo() {
         categorias: '',
     });
 
+
     // Maneja los cambios en los campos del formulario
     const handleInputChange = (event) => {
         const { name, value } = event.target;
