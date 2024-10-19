@@ -23,7 +23,7 @@ function ProductosAdmin() {
             redirect: 'follow'
         };
 
-        fetch("http://proyecto1-u7g9.onrender.com//api/productos", requestOptions)
+        fetch("http://proyecto1-u7g9.onrender.com/api/productos", requestOptions)
             .then(response => response.json())
             .then(data => {
                 setProductosInfo(data);

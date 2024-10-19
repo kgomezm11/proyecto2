@@ -21,7 +21,7 @@ function ComprasHistorial() {
             redirect: 'follow'
         };
 
-        fetch("http://proyecto1-u7g9.onrender.com//api/compra", requestOptions)
+        fetch("http://proyecto1-u7g9.onrender.com/api/compra", requestOptions)
             .then(response => response.json())
             .then(data => {
                 // Verificar si 'data' es un array o un objeto

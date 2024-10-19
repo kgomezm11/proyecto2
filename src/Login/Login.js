@@ -39,7 +39,7 @@ const Login = () => {
             redirect: 'follow'
         };
 
-        fetch("http://proyecto1-u7g9.onrender.com//api/login", requestOptions)
+        fetch("http://proyecto1-u7g9.onrender.com/api/login", requestOptions)
             .then(response => response.json())
             .then(data => {
                 if (data.error) {
@@ -94,7 +94,7 @@ const Login = () => {
             <br />
             <br />
             <p><center>Nota: luego de la primer solicitud (login o registro) la API en render demora unos 20 segundos en iniciarse</center></p>
-            <p><center>http://proyecto1-u7g9.onrender.com//</center></p>
+            <p><center>http://proyecto1-u7g9.onrender.com/</center></p>
             <Card style={{ width: '18rem', height: '18rem' }} className="container mt-3">
 
                 <Card.Body>

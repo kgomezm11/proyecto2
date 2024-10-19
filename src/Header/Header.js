@@ -26,7 +26,7 @@ function Header() {
                 redirect: 'follow'
             };
 
-            fetch("http://proyecto1-u7g9.onrender.com//api/carrito", requestOptions)
+            fetch("http://proyecto1-u7g9.onrender.com/api/carrito", requestOptions)
                 .then(response => response.json())
                 .then(data => {
                     setCarritoData(data);
@@ -52,7 +52,7 @@ function Header() {
                 redirect: 'follow'
             };
 
-            fetch("http://proyecto1-u7g9.onrender.com//api/carrito", requestOptions)
+            fetch("http://proyecto1-u7g9.onrender.com/api/carrito", requestOptions)
                 .then(response => response.json())
                 .then(data => {
                     setCarritoData(data);

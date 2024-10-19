@@ -67,14 +67,14 @@ function ProductoDetalle() {
             redirect: 'follow'
         };
 
-        fetch(`http://proyecto1-u7g9.onrender.com//api/cursos/${_id}`, requestOptions)
+        fetch(`http://proyecto1-u7g9.onrender.com/api/cursos/${_id}`, requestOptions)
             .then(response => response.json())
             .then(data => {
                 setProductoInfo(data);
             })
             .catch(error => console.error('Error al obtener detalles del producto:', error));
 
-        fetch(`http://proyecto1-u7g9.onrender.com//api/comments/${_id}`, requestOptions)
+        fetch(`http://proyecto1-u7g9.onrender.com/api/comments/${_id}`, requestOptions)
             .then(response => response.json())
             .then(data => {
                 setComments(data);
@@ -98,7 +98,7 @@ function ProductoDetalle() {
                 redirect: 'follow'
             };
 
-            fetch("http://proyecto1-u7g9.onrender.com//api/compra", requestOptions)
+            fetch("http://proyecto1-u7g9.onrender.com/api/compra", requestOptions)
                 .then(response => response.json())
                 .then(data => {
                     if (data.mensaje) {
@@ -137,7 +137,7 @@ function ProductoDetalle() {
             redirect: 'follow'
         };
 
-        fetch("http://proyecto1-u7g9.onrender.com//api/comment", requestOptions)
+        fetch("http://proyecto1-u7g9.onrender.com/api/comment", requestOptions)
             .then(response => response.json())
             .then(data => {
                 if (data.mensaje) {

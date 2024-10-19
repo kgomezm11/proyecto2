@@ -87,7 +87,7 @@ function Registro() {
             redirect: 'follow'
         };
 
-        fetch(`http://proyecto1-u7g9.onrender.com//api/registro/${formData.dpi}`, requestOptions)
+        fetch(`http://proyecto1-u7g9.onrender.com/api/registro/${formData.dpi}`, requestOptions)
             .then(response => response.json())
             .then(data => {
                 if (data.error) {
