@@ -49,7 +49,7 @@ function ProductoDetalleAdmin() {
             redirect: 'follow'
         };
 
-        fetch(`http://localhost:5000/api/producto/${identificador}`, requestOptions)
+        fetch(`http://proyecto1-u7g9.onrender.com//api/producto/${identificador}`, requestOptions)
             .then(response => response.json())
             .then(data => {
                 setOriginalProductData(data);
@@ -140,7 +140,7 @@ function ProductoDetalleAdmin() {
                 redirect: 'follow'
             };
 
-            fetch(`http://localhost:5000/api/producto/${identificador}`, requestOptions)
+            fetch(`http://proyecto1-u7g9.onrender.com//api/producto/${identificador}`, requestOptions)
                 .then(response => response.json())
                 .then(data => {
                     if (data.error) {

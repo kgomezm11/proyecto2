@@ -22,7 +22,7 @@ function Productos() {
             redirect: 'follow'
         };
 
-        fetch("http://localhost:5000/api/cursos", requestOptions)
+        fetch("http://proyecto1-u7g9.onrender.com//api/cursos", requestOptions)
             .then(response => response.json())
             .then(data => {
                 console.log(data)
