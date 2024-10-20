@@ -39,7 +39,7 @@ const Login = () => {
             redirect: 'follow'
         };
 
-        fetch("httpss://proyecto1-u7g9.onrender.com/api/login", requestOptions)
+        fetch("https://proyecto1-u7g9.onrender.com/api/login", requestOptions)
             .then(response => response.json())
             .then(data => {
                 if (data.error) {
