@@ -51,7 +51,7 @@ function ProductoDetalleAdquirido() {
             redirect: 'follow'
         };
 
-        fetch(`http://proyecto1-u7g9.onrender.com/api/cursos/${_id}`, requestOptions)
+        fetch(`https://proyecto1-u7g9.onrender.com/api/cursos/${_id}`, requestOptions)
             .then(response => response.json())
             .then(data => {
                 setProductoInfo(data);
@@ -78,7 +78,7 @@ function ProductoDetalleAdquirido() {
                 redirect: 'follow'
             };
 
-            fetch("http://proyecto1-u7g9.onrender.com/api/compra", requestOptions)
+            fetch("https://proyecto1-u7g9.onrender.com/api/compra", requestOptions)
                 .then(response => response.json())
                 .then(data => {
                     if (data.mensaje) {

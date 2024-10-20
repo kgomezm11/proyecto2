@@ -51,7 +51,7 @@ function CarritoModal({ show, onHide, carritoData }) {
             redirect: 'follow'
         };
 
-        fetch(`http://proyecto1-u7g9.onrender.com/api/carrito/`, requestOptions)
+        fetch(`https://proyecto1-u7g9.onrender.com/api/carrito/`, requestOptions)
             .then(response => response.json())
             .then(data => {
 
@@ -112,7 +112,7 @@ function CarritoModal({ show, onHide, carritoData }) {
             redirect: 'follow'
         };
 
-        fetch("http://proyecto1-u7g9.onrender.com/api/compra", requestOptions)
+        fetch("https://proyecto1-u7g9.onrender.com/api/compra", requestOptions)
             .then(response => response.json())
             .then(data => {
 

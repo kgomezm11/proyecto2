@@ -121,7 +121,7 @@ function ProductosNuevo() {
 
         };
 
-        fetch("http://proyecto1-u7g9.onrender.com/api/curso", requestOptions)
+        fetch("https://proyecto1-u7g9.onrender.com/api/curso", requestOptions)
             .then(response => response.json())
             .then(data => {
                 if (data.error) {

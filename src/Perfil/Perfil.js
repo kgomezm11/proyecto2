@@ -64,7 +64,7 @@ const Perfil = () => {
                 redirect: 'follow'
             };
 
-            fetch(`http://proyecto1-u7g9.onrender.com/api/perfil/${dpi}`, requestOptions)
+            fetch(`https://proyecto1-u7g9.onrender.com/api/perfil/${dpi}`, requestOptions)
                 .then(response => response.json())
                 .then(result => {
 
@@ -152,7 +152,7 @@ const Perfil = () => {
                     redirect: 'follow'
                 };
 
-                fetch(`http://proyecto1-u7g9.onrender.com/api/perfil/${dpi}`, requestOptions)
+                fetch(`https://proyecto1-u7g9.onrender.com/api/perfil/${dpi}`, requestOptions)
                     .then(response => response.json())
                     .then(data => {
                         if (data.error) {
@@ -196,7 +196,7 @@ const Perfil = () => {
             redirect: 'follow'
         };
 
-        fetch(`http://proyecto1-u7g9.onrender.com/api/perfil/${dpi}`, requestOptions)
+        fetch(`https://proyecto1-u7g9.onrender.com/api/perfil/${dpi}`, requestOptions)
             .then(response => response.json())
             .then(data => {
                 if (data.error) {
